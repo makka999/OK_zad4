@@ -17,9 +17,6 @@ public static class BruteForce
                     int x4 = x3 * (x2 + x1);
                     int x5 = x4 * (x3 + x2);
 
-                    if (x5 == 0 || x4 == 0)
-                        continue;
-
                     if (x6 == x5 * (x4 + x3)) // test rekurencyjny
                     {
                         int x7 = x6 * (x5 + x4);
